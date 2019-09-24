@@ -37,7 +37,7 @@ public class GoogleTest
     @Test(priority=3)
     public void googleLogoTest() throws InterruptedException {
 
-        boolean b2 = driver.findElement(By.xpath("//*[@id='hplogo']")).isDisplayed();
+        boolean b2 = driver.findElement(By.xpath("//div[@id='hplogo']")).isDisplayed();
     }
 
     @Test(priority=2)
